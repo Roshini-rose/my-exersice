@@ -1,0 +1,137 @@
+body
+{
+ margin: 20px 300px;
+}
+div
+{
+    border-radius: 20px;
+    padding-left: 15px;
+    max-width: 750px;
+    width: 90%;
+    margin: 20 center;
+    font-weight: 30px;
+    }
+#info{
+    font-weight: 18px;
+    color: pink;
+    font-family: Georgia;
+}    
+#header
+{
+    /*position: relative;
+    z-index: 1;*/
+    height:80px;
+    width: 98%;
+    background-color: gray;
+    /*margin-bottom: 10px*/
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	font-size: 26px;
+	font-family: Verdana, sans-serif;
+	color: cyan;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-family: Verdana, sans-serif;
+	color: white;
+}
+
+#contact
+{
+    padding-top: 20px;
+    margin-left:45%;
+    padding-bottom: 15px;
+    padding-left: 65px;
+	font-size: 15px;
+	font-family: Verdana, sans-serif;
+	color: white;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    float: left;
+    /*margin-top: 50px;
+    padding-left:5px;*/
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #66d9ff;
+    color: black;
+    }
+
+/*.left
+{
+    float: left;
+    margin-top: 50px;
+    /*margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }*/
+    
+/*#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: grey;
+    }*/
+    
+h3
+{
+    text-decoration: underline;
+    }
+
+#job-responsibilities
+{
+    padding: 1px;
+    }
+.job-title
+{
+    font-weight: bold;
+    }
+/*table
+{
+    border: 1px dotted gray;
+    }*/
+td
+{
+    padding: 2px;
+    border: 1px solid #ff0066;
+    }
+
+#course-name
+{
+    font-weight:bold;
+    }
+
+#company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+#job-title
+{
+    height: 5px;
+    }
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
+    }

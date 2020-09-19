@@ -1,0 +1,22 @@
+<html> 
+
+<body> 
+
+<h1>Success<h1>
+</body> 
+
+</html> 
+
+
+
+else if(atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+    {
+     alert("Please enter a valid email id \n atpos:"+atpos+"\ndotpos:"+dotpos);
+     return false;
+    }
+ var x=document.myform.x.value;
+    var atpos=x.indexOf("@");
+    val dotpos=x.lastIndexOf(".");
+
+
+Email:<input type="text" name="x"><br/>
